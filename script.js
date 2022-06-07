@@ -4,5 +4,5 @@ window.addEventListener('keydown', (e) => {
     if (audio === null) return;
     
     audio.play();
-    
+    audio.currentTime = 0;
 });
