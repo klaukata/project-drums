@@ -1,4 +1,6 @@
-
+div.keys {
+    display: flex;
+}
 
 div.key {
     width: 7em;
