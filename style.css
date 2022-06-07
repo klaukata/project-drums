@@ -1,3 +1,8 @@
+body {
+    --orange: #FBBC14;
+    background-image: url('https://github.com/wesbos/JavaScript30/blob/master/01%20-%20JavaScript%20Drum%20Kit/background.jpg?raw=true');
+}
+
 div.keys {
     display: flex;
     justify-content: center;
@@ -9,7 +14,7 @@ div.keys {
 div.key {
     width: 7em;
     height: 5em;
-    border: 1px solid black;
+    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
