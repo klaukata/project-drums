@@ -1,6 +1,8 @@
 body {
     --orange: #FBBC14;
     background-image: url('https://github.com/wesbos/JavaScript30/blob/master/01%20-%20JavaScript%20Drum%20Kit/background.jpg?raw=true');
+    background-attachment: fixed;
+    background-size: cover;
   }
   div.keys {
     display: flex;
@@ -10,7 +12,7 @@ body {
     gap: 10px;
   }
   div.key {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
     width: 5em;
     height: 4em;
     border: 3px solid black;
@@ -32,7 +34,7 @@ body {
     font-size: 0.9em;
   }
   #playing {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) );
     border: 6px solid var(--orange);
     border-radius: 5px;
   }
