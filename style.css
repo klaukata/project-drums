@@ -1,6 +1,10 @@
 div.keys {
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    gap: 10px;
+  }
 
 div.key {
     width: 7em;
