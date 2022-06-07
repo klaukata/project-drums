@@ -1,22 +1,38 @@
 body {
     --orange: #FBBC14;
     background-image: url('https://github.com/wesbos/JavaScript30/blob/master/01%20-%20JavaScript%20Drum%20Kit/background.jpg?raw=true');
-}
-
-div.keys {
+  }
+  div.keys {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 96vh;
     gap: 10px;
   }
-
-div.key {
-    width: 7em;
-    height: 5em;
-    border: 1px solid;
+  div.key {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    width: 5em;
+    height: 4em;
+    border: 3px solid black;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+    
+  }
+  kbd {
+    color: white;
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  span {
+    color: var(--orange);
+    font-family: 'Helvetica';
+    font-size: 0.9em;
+  }
+  #playing {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    border: 6px solid var(--orange);
+    border-radius: 5px;
+  }
