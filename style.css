@@ -12,7 +12,7 @@ body {
     gap: 10px;
   }
   div.key {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
     width: 5em;
     height: 4em;
     border: 3px solid black;
@@ -33,8 +33,8 @@ body {
     font-family: 'Helvetica';
     font-size: 0.9em;
   }
-  #playing {
+  div.playing {
     background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) );
-    border: 6px solid var(--orange);
+    border-color: var(--orange);
     border-radius: 5px;
   }
